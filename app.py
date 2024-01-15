@@ -15,4 +15,4 @@ def hello():
             return(html_text)
             #get_bond_arr=json.loads(html_text)
     except BaseException as msg:
-        return('Network_error!')
+        return(msg)
