@@ -1,5 +1,4 @@
 from flask import Flask
-import urllib
 import requests
 app = Flask(__name__)
 @app.route("/")
